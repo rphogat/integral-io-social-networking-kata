@@ -19,6 +19,9 @@ You can run the following scenarios with the expected results:
     - reading: \<user name> 
 - All commands start with the user name.
 
+
+
+- ***Features Implemented*** -
 Feature: Publishing
    Scenario: Alice publishes messages to her personal timeline.   
       Given Alice has published "I love the weather today."
@@ -36,6 +39,7 @@ Feature: Timeline
          Darn! We lost! (2 minute ago)
 
 - ***To Be Implemented*** -
+- 
 Feature: Following
    Scenario: Charlie can follow Alice and Bob, and he views an aggregated list of all timelines.
       Given Alice has published "I love the weather today."
